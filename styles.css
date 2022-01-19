@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+body {
+    font-family: Montserrat, Helvetica, sans-serif;
+    color: darkslategrey;
+}
+
+h1 {
+    background-color: yellow;
+    font-weight: 900;
+
+}
+
+p.first,
+.last {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 26px;
+    color: blue;
+}
+
+.main-info {
+    color: darkgrey;
+}
+
+.additional-info {
+    font-style: italic;
+}
+
+.date {
+    font-size: 11px;
+}
+
+.names li:first-child {
+    color: blue;
+}
+
+.names li:nth-child(2) {
+    color: orange;
+}
+
+.names li:last-child {
+    color: red;
+}
+
+li:hover {
+    color: green;
+}
+
+ol li {
+    list-style-position: inside;
+    width: 500px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+ol li:first-child {
+    background-color: black;
+    color: white;
+}
+
+ol li:nth-child(2) {
+    background-color: silver;
+    color: white;
+}
+
+ol li:nth-child(3) {
+    background-color: gray;
+    color: white;
+}
+
+ol li:nth-child(4) {
+    background-color: white;
+    color: black;
+}
+
+ol li:nth-child(5) {
+    background-color: maroon;
+    color: white;
+}
+
+ol li:nth-child(6) {
+    background-color: red;
+    color: white;
+}
+
+ol li:nth-child(7) {
+    background-color: purple;
+    color: white;
+}
+
+ol li:nth-child(8) {
+    background-color: fuchsia;
+    color: black;
+}
+
+ol li:nth-child(9) {
+    background-color: green;
+    color: white;
+}
+
+ol li:nth-child(10) {
+    background-color: lime;
+    color: black;
+}
+
+ol li:nth-child(11) {
+    background-color: olive;
+    color: white;
+}
+
+ol li:nth-child(12) {
+    background-color: yellow;
+    color: black;
+}
+
+ol li:nth-child(13) {
+    background-color: navy;
+    color: white;
+}
+
+ol li:nth-child(14) {
+    background-color: blue;
+    color: white;
+}
+
+ol li:nth-child(15) {
+    background-color: teal;
+    color: white;
+}
+
+ol li:last-child {
+    background-color: aqua;
+    color: black;
+}
+
+ h2 {
+     font-weight: 900;
+ }
+
+ h3 {
+     font-weight: 900;
+ }
+
+ table,
+ tr,
+ td {
+     border-collapse: collapse;
+     border: 1px solid lightblue;
+     background-color: lightcyan;
+     padding: 10px;
+ }
+
+ table {
+     width: 720px;
+ }
+
+ p.stiv,
+ ul.facts,
+ .life, .career {
+    background-color: lightcyan;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightblue;
+    box-sizing: border-box;
+    width: 720px;
+    padding: 30px;
+ }
